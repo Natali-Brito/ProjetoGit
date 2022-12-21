@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><Context>
+    <Resource accessToUnderlyingConnectionAllowed="true" driverClassName="org.h2.Driver" logAbandoned="true" name="jdbc/main" password="root" profile="DEV" removeAbandoned="false" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:h2:file:~/6fc42514471649b2bf22bf31994564bf;DATABASE_TO_UPPER=TRUE;ALIAS_COLUMN_NAME=true;AUTO_SERVER=TRUE" username="root"/>
+    <Resource accessToUnderlyingConnectionAllowed="false" cloudDatabaseKey="" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" logAbandoned="true" name="jdbc/Instituicao1" password="V#NFpYHxO1V6L&amp;z!&amp;V80%#o1E" profile="PROD" removeAbandoned="false" removeAbandonedTimeout="60" schema="" type="javax.sql.DataSource" url="jdbc:sqlserver://bandmobile.database.secure.windows.net:1433;databaseName=Vestibulares" username="vestibulares"/>
+    <Profile value="DEV"/>
+    <Profile value="PROD"/>
+</Context>
